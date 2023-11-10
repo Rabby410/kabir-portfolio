@@ -1,4 +1,5 @@
 import Aboutme from '@/components/aboutme'
+import Experiance from '@/components/experiance'
 import Footer from '@/components/footer'
 import Header from '@/components/header'
 import Hero from '@/components/hero'
@@ -10,6 +11,7 @@ const page = () => {
     <Header />
     <Hero />
     <Aboutme />
+    <Experiance />
     <Footer />
     </>
   )
