@@ -1,4 +1,5 @@
 import Aboutme from '@/components/aboutme'
+import Contact from '@/components/contact'
 import Experiance from '@/components/experiance'
 import Footer from '@/components/footer'
 import Header from '@/components/header'
@@ -12,6 +13,7 @@ const page = () => {
     <Hero />
     <Aboutme />
     <Experiance />
+    <Contact />
     <Footer />
     </>
   )
