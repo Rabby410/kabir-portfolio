@@ -13,8 +13,8 @@ const Header = () => {
       <nav>
         <ul style={navStyle}>
             <li className="mx-5">Home</li>
-            <li className="mx-5"><a href="#about">About Me</a></li>
-            <li className="mx-5">Experiance</li>
+            <li className="mx-5"><Link href="#about">About Me</Link></li>
+            <li className="mx-5"><Link href="#experiance">Experiance</Link></li>
             <li className="mx-5">Education</li>
             <li className="mx-5">Work Demostration</li>
             <li className="mx-5">Client Review</li>
