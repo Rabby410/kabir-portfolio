@@ -5,47 +5,51 @@ const Header = () => {
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      section.scrollIntoView({ behavior: "smooth" });
     }
   };
+
   return (
-    <header style={headerStyle}>
-      <nav>
-        <ul style={navStyle}>
-            <li className="mx-5">Home</li>
-            <li className="mx-5"><Link href="#about">About Me</Link></li>
-            <li className="mx-5"><Link href="#experiance">Experiance</Link></li>
-            <li className="mx-5">Education</li>
-            <li className="mx-5">Work Demostration</li>
-            <li className="mx-5">Client Review</li>
+    <header className="bg-dark text-white sticky-top py-3">
+      <nav className="container">
+        <ul className="nav justify-content-center">
+          <li className="nav-item">
+            <Link href="#" className="nav-link">
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href="#about" className="nav-link">
+              About Me
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href="#experience" className="nav-link">
+              Experience
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href="#education" className="nav-link">
+              Education
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href="#wd" className="nav-link">
+              Work Demonstration
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href="#cr" className="nav-link">
+              Client Review
+            </Link>
+          </li>
+          <li className="nav-item"><Link href="#contact" className="nav-link">
+          Contact
+        </Link></li>
         </ul>
       </nav>
-      <div className="contact">
-      </div>
     </header>
   );
-};
-
-const headerStyle = {
-  backgroundColor: "#333",
-  color: "white",
-  padding: "1rem",
-  textAlign: "center",
-};
-
-const navStyle = {
-  listStyle: "none",
-  padding: 0,
-  display: "flex",
-  justifyContent: "center",
-};
-
-const linkStyle = {
-  color: "white",
-  textDecoration: "none",
-  fontWeight: "bold",
-  fontSize: "1.2rem",
-  margin: "0 1rem",
 };
 
 export default Header;
