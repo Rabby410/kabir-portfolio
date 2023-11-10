@@ -4,7 +4,8 @@ const Experience = () => {
   const portfolioItems = [
     {
       title: "iCircles LLC USA Bangladesh Ltd",
-      description: "Worked as a Video editor and Creative Director on Broadcast and operation (Video editing, 2D)",
+      description:
+        "Worked as a Video editor and Creative Director on Broadcast and operation (Video editing, 2D)",
       year: "2021 to 30/05/2023",
     },
     {
@@ -14,7 +15,8 @@ const Experience = () => {
     },
     {
       title: "Mystic Lense Production",
-      description: "Video editor & Creative Director on Broadcast and operation (Video editing, 2D Animation, Sound editing, Graphic design)",
+      description:
+        "Video editor & Creative Director on Broadcast and operation (Video editing, 2D Animation, Sound editing, Graphic design)",
       year: "2012 to 2016",
     },
     {
@@ -40,7 +42,10 @@ const Experience = () => {
       <div className="row">
         {portfolioItems.map((item, index) => (
           <div key={index} className="col-md-4 mb-4">
-            <div className="card" style={{ height: "100%" }}>
+            <div
+              className="card position-relative"
+              style={{ height: "100%", boxShadow: "0 4px 8px rgba(0,0,0,0.1)" }}
+            >
               <div className="card-body">
                 <h5 className="card-title">{item.title}</h5>
                 <p className="card-text">{item.description}</p>

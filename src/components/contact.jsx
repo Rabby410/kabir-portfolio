@@ -94,7 +94,7 @@ const styles = {
     width: '150px',
     height: '150px',
     borderRadius: '50%',
-    objectFit: 'cover', // Ensure the image covers the entire circle
+    objectFit: 'cover',
   },
 };
 

@@ -1,5 +1,6 @@
 import Aboutme from '@/components/aboutme'
 import Contact from '@/components/contact'
+import Education from '@/components/education'
 import Experiance from '@/components/experiance'
 import Footer from '@/components/footer'
 import Header from '@/components/header'
@@ -15,6 +16,7 @@ const page = () => {
     <Aboutme />
     <Experiance />
     <WorkDemonstration />
+    <Education />
     <Contact />
     <Footer />
     </>
