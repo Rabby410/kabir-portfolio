@@ -38,11 +38,11 @@ const Header = () => {
               Work Demonstration
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link href="#cr" className="nav-link">
               Client Review
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item"><Link href="#contact" className="nav-link">
           Contact
         </Link></li>

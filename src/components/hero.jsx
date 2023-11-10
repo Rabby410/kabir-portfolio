@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -35,7 +36,7 @@ const Hero = () => {
         <h1 style={headingStyle}>Welcome to My Portfolio</h1>
         <p style={subheadingStyle}>Showcasing my skills and projects</p>
         <a href="#portfolio" style={buttonStyle}>
-          <a href="tel:+8801936906837" className="text-black">Contact me</a>
+          <Link href="tel:+8801936906837" className="text-black">Contact me</Link>
         </a>
       </div>
     </section>
