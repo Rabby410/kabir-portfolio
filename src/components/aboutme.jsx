@@ -23,7 +23,7 @@ const Aboutme = () => {
         <h2 style={sectionHeadingStyle}>About Me</h2>
         <div style={contentStyle}>
           <p>
-            Greetings! I'm Kabir Hossain Nayan, a passionate multimedia artist
+            Greetings! I&apos;m Kabir Hossain Nayan, a passionate multimedia artist
             based in the vibrant city of Dhaka, Bangladesh. With a keen eye for
             detail and a love for storytelling, I specialize in a diverse range
             of creative services that bring visuals and sounds to life.
